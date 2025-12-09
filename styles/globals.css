@@ -1,0 +1,23 @@
+:root{
+  --orange:#FF6A00;
+  --charcoal:#2A2A2A;
+  --gray:#6E6E6E;
+  --bg:#ffffff;
+  --muted:#f6f6f6;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, Arial, sans-serif; margin:0; color:var(--charcoal); background:var(--bg);}
+.container{max-width:1100px; margin:0 auto; padding:24px;}
+.header{background:var(--orange); color:white; padding:18px 0;}
+.header .brand{display:flex; align-items:center; gap:12px;}
+.header img{height:44px}
+.nav a{color:white; margin-left:16px; text-decoration:none; font-weight:600;}
+.hero{display:flex; gap:24px; align-items:center; padding:48px 0;}
+.hero .left{flex:1}
+.hero .right{flex:1}
+.card{background:var(--muted); padding:18px; border-radius:8px;}
+.grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px;}
+.footer{background:var(--charcoal); color:white; padding:28px; margin-top:32px;}
+button.cta{background:var(--charcoal); color:white; padding:12px 18px; border:none; border-radius:6px; cursor:pointer;}
+.form input, .form textarea{width:100%; padding:10px; margin-top:6px; margin-bottom:12px; border:1px solid #e0e0e0; border-radius:6px;}
+.portal-box{max-width:900px; margin:40px auto; padding:24px; background:#fff; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06);}
